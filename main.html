@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" role="banner">
+      <!--Website logo-->
+      <div class="logo">
+        <a href="#"
+          ><img
+            alt=""
+            class="header-logo"
+            src="./3.png"
+            role="presentation"
+            aria-hidden="true"
+        /></a>
+      </div>
+      <!--Website title (name of company)-->
+      <div class="company-name">
+        <a class="company-name-link" href="#">
+          <span>Mi GlobaL</span>
+        </a>
+      </div>
+     
+      <!--Categories names -->
+      <nav class="navbar" role="navigation">
+        <ul class="nav-menu">
+          <li class="menu-item">
+            <div class="menu-item-inner">
+              <button>Top Offers</button>
+            </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-inner">
+              <button>Electronics</button>
+            </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-inner">
+              <button>Appliances</button>
+            </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-inner">
+              <button>Home & Furniture</button>
+            </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-inner">
+              <button>Fashion & Cosmetics</button>
+            </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-inner">
+              <button>Grocery</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!--Right part of header-->
+      <div class="header-actions">
+        <!--Country of delivery-->
+        <div class="header-menu">
+          <button>
+            Deliver to
+            <br />
+            <span><b> &#10168;</b></span>
+            <b> India</b>
+          </button>
+        </div>
+        <!--Search svg-->
+        <div class="header-actions-item btn-search">
+          <a
+            class="header-actions-link"
+            data-tooltip="Search www.mi-global.com"
+            href="#"
+          >
+            <img class="actions-item-search" src="./search.svg" alt="" />
+          </a>
+        </div>
+        <!--Shopping cart svg-->
+        <div class="header-actions-item">
+          <a
+            class="header-actions-link"
+            data-tooltip="0 items in shopping cart"
+            href="#"
+          >
+            <img class="actions-item-cart" src="./shopping-cart.svg" alt="" />
+          </a>
+        </div>
+        <!--Log in svg-->
+        <div class="header-actions-item">
+          <a
+            class="header-actions-link"
+            data-tooltip="Log in to your account"
+            href="#"
+          >
+            <img class="actions-item-login" src="login.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="header-form hide">
+        <!--Arrow svg-->
+        <div class="form-arrow">
+          <a class="btn-arrow" href="#">
+            <img src="./arrow.svg" alt="" />
+          </a>
+        </div>
+        <!--Search bar-->
+        <form method="post">
+          <input
+            class="header-input"
+            type="search"
+            name="field-search"
+            placeholder="Search www.mi-global.com"
+          />
+          <button
+            class="input-search"
+            type="search"
+            data-tooltip="Search www.mi-global.com"
+          >
+            <img src="./search.svg" alt="" />
+          </button>
+        </form>
+        <button class="cancel-search">SEARCH</button>
+      </div>
+    </header>
+    <script src="main.js"></script>
+  </body>
+</html>
